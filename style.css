@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#unosImena{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 892px;
+    width: 412px;
+}
+
+.imena{
+   position: relative;
+   top:-400px;
+   left: 30px;
+}
+
+input{
+    position: relative;
+    top: 20px;
+    border: 2px solid black;
+    text-align:center;
+    resize: none;
+    width: 80px;
+    height: 25px;
+}
+
+#unes{
+    height: 30px;
+    width: 70px;
+    position: relative;
+    top: -200px;
+    left: -180px;
+}
+
+#igra{
+    background-color: antiquewhite;
+    display: none;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: repeat(4, 80px);
+    height: 892px;
+    justify-content: center;
+    width: 412px;
+    grid-gap: 10px;
+}
+
+.kutija{
+    text-align: center;
+    height: 25px;
+    width: 80px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+h5{
+    position: relative;
+    top: 4px;
+}
+
+#dalje{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    top: 0px;
+    left:130px;
+}
+
+.plac{
+    position: relative;
+    left: 10px;
+}
