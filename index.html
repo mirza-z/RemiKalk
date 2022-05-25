@@ -15,15 +15,15 @@
             <input id="player-3" type="text" placeholder="Player3">
             <input id="player-4" type="text" placeholder="Player4">
         </div>
-            <button id="unes" onclick="pocni()">Potvrdi</button>
+            <button id="unesii" onclick="pocnii()">Potvrdi</button>
     </section>
 
     <section id="igra">
 
-            <div class="kutija"><h5 id="ime-1">aa</h5></div>
-            <div class="kutija"><h5 id="ime-2">ee</h5></div>
-            <div class="kutija"><h5 id="ime-3">rr</h5></div>
-            <div class="kutija"><h5 id="ime-4">tt</h5></div>
+            <div class="kutija"><h5 id="ime-1">Player 1</h5></div>
+            <div class="kutija"><h5 id="ime-2">Player 2</h5></div>
+            <div class="kutija"><h5 id="ime-3">Player 3</h5></div>
+            <div class="kutija"><h5 id="ime-4">Player 4</h5></div>
 
             <div class="kutija"><h5 id="re-1">0</h5></div>
             <div class="kutija"><h5 id="re-2">0</h5></div>
@@ -35,7 +35,52 @@
             <input class="plac" id="rez-3" type="text">
             <input class="plac" id="rez-4" type="text">
        <button id="dalje" onclick="racunaj()">Dalje</button>
-    </section> 
+       <div class="bule">
+       <button class="bula1" value="0" onclick="bula(value)">1. Bula</button>
+       <button class="bula2" value="1" onclick="bula(value)">2. Bula</button>
+       <button class="bula3" value="2" onclick="bula(value)">3. Bula</button>
+       <button class="bula4" value="3" onclick="bula(value)">4. Bula</button>
+    </div>
+    </section>
+    
+    <section id="prikaz-bule">
+    <div class="red">
+        <div class="kutija"><h5 id="bu-11">-</h5></div>
+        <div class="kutija"><h5 id="bu-21">-</h5></div>
+        <div class="kutija"><h5 id="bu-31">-</h5></div>
+        <div class="kutija"><h5 id="bu-41">-</h5></div>
+    </div>
+
+    <div class="red">
+        <div class="kutija"><h5 id="bu-12">-</h5></div>
+        <div class="kutija"><h5 id="bu-22">-</h5></div>
+        <div class="kutija"><h5 id="bu-32">-</h5></div>
+        <div class="kutija"><h5 id="bu-42">-</h5></div>
+    </div>
+
+    <div class="red">
+        <div class="kutija"><h5 id="bu-13">-</h5></div>
+        <div class="kutija"><h5 id="bu-23">-</h5></div>
+        <div class="kutija"><h5 id="bu-33">-</h5></div>
+        <div class="kutija"><h5 id="bu-43">-</h5></div>
+    </div>
+
+    <div class="red">
+        <div class="kutija"><h5 id="bu-14">-</h5></div>
+        <div class="kutija"><h5 id="bu-24">-</h5></div>
+        <div class="kutija"><h5 id="bu-34">-</h5></div>
+        <div class="kutija"><h5 id="bu-44">-</h5></div>
+    </div>
+
+    <button id="nazad" onclick="nazad()">Nazad</button>
+    </section>
+    
+    <section id="kraj">
+        <h3 id="mjesto1"></h3>
+        <h3 id="mjesto2"></h3>
+        <h3 id="mjesto3"></h3>
+        <h3 id="mjesto4"></h3>
+    </section>
     
     <script src="script.js"></script>
 </body>
